@@ -1,0 +1,16 @@
+package com.calc.birthday.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+public class BirthdayDTO {
+
+    private String birthdayDate;
+
+    private int age;
+
+}
